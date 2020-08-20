@@ -73,6 +73,9 @@ CKEDITOR.editorConfig = function( config ) {
 		'uploadimage,' +
 		'wysiwygarea';
 	// %REMOVE_END%
+
+	config.extraPlugins = 'nanospell';
+	config.removePlugins = 'wsc,scayt';
 };
 
 // %LEAVE_UNMINIFIED% %REMOVE_LINE%

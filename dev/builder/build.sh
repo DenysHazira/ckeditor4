@@ -87,5 +87,7 @@ if [[ "$ARGS" == *\ \-t\ * ]]; then
 	(cd release/ckeditor &&	npm install && bender init)
 fi
 
+cp -r ../../package.json release/ckeditor/package.json
+
 echo ""
 echo "Release created in the \"release\" directory."
